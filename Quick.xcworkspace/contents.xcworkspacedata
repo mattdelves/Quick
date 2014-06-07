@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:QuickCore/QuickCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:QuickExpectations/QuickExpectations.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:Quick.xcodeproj">
    </FileRef>
 </Workspace>
