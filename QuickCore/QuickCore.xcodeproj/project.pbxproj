@@ -10,6 +10,13 @@
 		C966BACC1943C3280013575B /* QuickCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C966BACB1943C3280013575B /* QuickCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C966BAD21943C3280013575B /* QuickCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966BAC61943C3280013575B /* QuickCore.framework */; };
 		C966BAD91943C3280013575B /* QuickCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAD81943C3280013575B /* QuickCoreTests.swift */; };
+		C966BAE91943C3FF0013575B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE21943C3FF0013575B /* DSL.swift */; };
+		C966BAEA1943C3FF0013575B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE31943C3FF0013575B /* Example.swift */; };
+		C966BAEB1943C3FF0013575B /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE41943C3FF0013575B /* ExampleGroup.swift */; };
+		C966BAEC1943C3FF0013575B /* Quick-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C966BAE51943C3FF0013575B /* Quick-Bridging-Header.h */; };
+		C966BAED1943C3FF0013575B /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C966BAE61943C3FF0013575B /* QuickSpec.h */; };
+		C966BAEE1943C3FF0013575B /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE71943C3FF0013575B /* QuickSpec.m */; };
+		C966BAEF1943C3FF0013575B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE81943C3FF0013575B /* World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		C966BAD11943C3280013575B /* QuickCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C966BAD71943C3280013575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C966BAD81943C3280013575B /* QuickCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCoreTests.swift; sourceTree = "<group>"; };
+		C966BAE21943C3FF0013575B /* DSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
+		C966BAE31943C3FF0013575B /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		C966BAE41943C3FF0013575B /* ExampleGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleGroup.swift; sourceTree = "<group>"; };
+		C966BAE51943C3FF0013575B /* Quick-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Quick-Bridging-Header.h"; sourceTree = "<group>"; };
+		C966BAE61943C3FF0013575B /* QuickSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSpec.h; sourceTree = "<group>"; };
+		C966BAE71943C3FF0013575B /* QuickSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSpec.m; sourceTree = "<group>"; };
+		C966BAE81943C3FF0013575B /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,13 @@
 		C966BAC81943C3280013575B /* QuickCore */ = {
 			isa = PBXGroup;
 			children = (
+				C966BAE21943C3FF0013575B /* DSL.swift */,
+				C966BAE31943C3FF0013575B /* Example.swift */,
+				C966BAE41943C3FF0013575B /* ExampleGroup.swift */,
+				C966BAE51943C3FF0013575B /* Quick-Bridging-Header.h */,
+				C966BAE61943C3FF0013575B /* QuickSpec.h */,
+				C966BAE71943C3FF0013575B /* QuickSpec.m */,
+				C966BAE81943C3FF0013575B /* World.swift */,
 				C966BACB1943C3280013575B /* QuickCore.h */,
 				C966BAC91943C3280013575B /* Supporting Files */,
 			);
@@ -110,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C966BACC1943C3280013575B /* QuickCore.h in Headers */,
+				C966BAED1943C3FF0013575B /* QuickSpec.h in Headers */,
+				C966BAEC1943C3FF0013575B /* Quick-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C966BAEA1943C3FF0013575B /* Example.swift in Sources */,
+				C966BAEB1943C3FF0013575B /* ExampleGroup.swift in Sources */,
+				C966BAEE1943C3FF0013575B /* QuickSpec.m in Sources */,
+				C966BAE91943C3FF0013575B /* DSL.swift in Sources */,
+				C966BAEF1943C3FF0013575B /* World.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
