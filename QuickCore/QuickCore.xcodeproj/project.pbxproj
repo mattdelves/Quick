@@ -70,7 +70,6 @@
 		C966BABC1943C3280013575B = {
 			isa = PBXGroup;
 			children = (
-				C9BA97581943D1050070EE71 /* XCTest.framework */,
 				C966BAC81943C3280013575B /* QuickCore */,
 				C966BAD51943C3280013575B /* QuickCoreTests */,
 				C966BAC71943C3280013575B /* Products */,
@@ -105,6 +104,7 @@
 		C966BAC91943C3280013575B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9BA97581943D1050070EE71 /* XCTest.framework */,
 				C966BACA1943C3280013575B /* Info.plist */,
 			);
 			name = "Supporting Files";
