@@ -17,6 +17,7 @@
 		C966BAED1943C3FF0013575B /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C966BAE61943C3FF0013575B /* QuickSpec.h */; };
 		C966BAEE1943C3FF0013575B /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE71943C3FF0013575B /* QuickSpec.m */; };
 		C966BAEF1943C3FF0013575B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BAE81943C3FF0013575B /* World.swift */; };
+		C9BA97591943D1050070EE71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA97581943D1050070EE71 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		C966BAE61943C3FF0013575B /* QuickSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSpec.h; sourceTree = "<group>"; };
 		C966BAE71943C3FF0013575B /* QuickSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSpec.m; sourceTree = "<group>"; };
 		C966BAE81943C3FF0013575B /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		C9BA97581943D1050070EE71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BA97591943D1050070EE71 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +70,7 @@
 		C966BABC1943C3280013575B = {
 			isa = PBXGroup;
 			children = (
+				C9BA97581943D1050070EE71 /* XCTest.framework */,
 				C966BAC81943C3280013575B /* QuickCore */,
 				C966BAD51943C3280013575B /* QuickCoreTests */,
 				C966BAC71943C3280013575B /* Products */,
@@ -348,6 +352,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = QuickCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -365,6 +373,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = QuickCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -427,6 +439,7 @@
 				C966BADE1943C3280013575B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C966BADF1943C3280013575B /* Build configuration list for PBXNativeTarget "QuickCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +448,7 @@
 				C966BAE11943C3280013575B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
