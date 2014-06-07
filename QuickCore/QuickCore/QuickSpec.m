@@ -7,7 +7,7 @@
 //
 
 #import "QuickSpec.h"
-#import <Quick/Quick-Swift.h>
+#import <QuickCore/QuickCore-Swift.h>
 
 static NSUInteger const QCKIndex = 2; // 0 is class, 1 is _cmd
 
