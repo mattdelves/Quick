@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9491A9E1943D59B00B32110 /* ExampleGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9491A971943D59B00B32110 /* ExampleGroupTests.swift */; };
+		C9491A9F1943D59B00B32110 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9491A991943D59B00B32110 /* Person.swift */; };
+		C9491AA01943D59B00B32110 /* Poet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9491A9A1943D59B00B32110 /* Poet.swift */; };
+		C9491AA11943D59B00B32110 /* FunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9491A9B1943D59B00B32110 /* FunctionalTests.swift */; };
+		C9491AA21943D59B00B32110 /* ContainSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9491A9D1943D59B00B32110 /* ContainSpec.swift */; };
 		C9BA976A1943D4520070EE71 /* QuickTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BA97691943D4520070EE71 /* QuickTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9BA97701943D4520070EE71 /* QuickTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA97641943D4520070EE71 /* QuickTouch.framework */; };
 		C9BA97771943D4520070EE71 /* QuickTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA97761943D4520070EE71 /* QuickTouchTests.swift */; };
@@ -25,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9491A971943D59B00B32110 /* ExampleGroupTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleGroupTests.swift; sourceTree = "<group>"; };
+		C9491A991943D59B00B32110 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C9491A9A1943D59B00B32110 /* Poet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poet.swift; sourceTree = "<group>"; };
+		C9491A9B1943D59B00B32110 /* FunctionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalTests.swift; sourceTree = "<group>"; };
+		C9491A9D1943D59B00B32110 /* ContainSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainSpec.swift; sourceTree = "<group>"; };
 		C9BA97641943D4520070EE71 /* QuickTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BA97681943D4520070EE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9BA97691943D4520070EE71 /* QuickTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTouch.h; sourceTree = "<group>"; };
@@ -56,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9491A981943D59B00B32110 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				C9491A991943D59B00B32110 /* Person.swift */,
+				C9491A9A1943D59B00B32110 /* Poet.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		C9491A9C1943D59B00B32110 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				C9491A9D1943D59B00B32110 /* ContainSpec.swift */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
 		C9BA975A1943D4520070EE71 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +123,10 @@
 		C9BA97731943D4520070EE71 /* QuickTouchTests */ = {
 			isa = PBXGroup;
 			children = (
+				C9491A971943D59B00B32110 /* ExampleGroupTests.swift */,
+				C9491A9B1943D59B00B32110 /* FunctionalTests.swift */,
+				C9491A981943D59B00B32110 /* Fixtures */,
+				C9491A9C1943D59B00B32110 /* Matchers */,
 				C9BA97761943D4520070EE71 /* QuickTouchTests.swift */,
 				C9BA97741943D4520070EE71 /* Supporting Files */,
 			);
@@ -224,7 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9491AA11943D59B00B32110 /* FunctionalTests.swift in Sources */,
+				C9491A9F1943D59B00B32110 /* Person.swift in Sources */,
+				C9491AA01943D59B00B32110 /* Poet.swift in Sources */,
+				C9491A9E1943D59B00B32110 /* ExampleGroupTests.swift in Sources */,
 				C9BA97771943D4520070EE71 /* QuickTouchTests.swift in Sources */,
+				C9491AA21943D59B00B32110 /* ContainSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +449,7 @@
 				C9BA977C1943D4520070EE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BA977D1943D4520070EE71 /* Build configuration list for PBXNativeTarget "QuickTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +458,7 @@
 				C9BA977F1943D4520070EE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
