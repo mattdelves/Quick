@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C966BA7E1943C11E0013575B /* QuickExpectations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966BA731943C11E0013575B /* QuickExpectations.framework */; };
+		C9BA97531943D0620070EE71 /* QuickCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA97521943D0620070EE71 /* QuickCore.framework */; };
+		C9BA97551943D0840070EE71 /* QuickExpectations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA97541943D0840070EE71 /* QuickExpectations.framework */; };
 		DAEB6B941943873100289F44 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB6B931943873100289F44 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAEB6B9A1943873100289F44 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB6B8E1943873100289F44 /* Quick.framework */; };
 		DAEB6BCA194387C300289F44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB6BC9194387C300289F44 /* XCTest.framework */; };
@@ -19,48 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C966BA7F1943C11E0013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
-		C966BA8C1943C11F0013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
-		C966BA8E1943C11F0013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
-		C966BA901943C1200013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
-		C966BA921943C1270013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
-		C966BA941943C1270013575B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAEB6B851943873100289F44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966BA721943C11E0013575B;
-			remoteInfo = QuickExpectations;
-		};
 		DAEB6B9B1943873100289F44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DAEB6B851943873100289F44 /* Project object */;
@@ -71,8 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C966BA731943C11E0013575B /* QuickExpectations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickExpectations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C966BA7D1943C11E0013575B /* QuickExpectationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickExpectationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA97521943D0620070EE71 /* QuickCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickCore.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Quick-auptdtbnrhtalxffjdgucmdprbax/Build/Products/Debug/QuickCore.framework"; sourceTree = "<group>"; };
+		C9BA97541943D0840070EE71 /* QuickExpectations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickExpectations.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Quick-auptdtbnrhtalxffjdgucmdprbax/Build/Products/Debug/QuickExpectations.framework"; sourceTree = "<group>"; };
 		DAEB6B8E1943873100289F44 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB6B921943873100289F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEB6B931943873100289F44 /* Quick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quick.h; sourceTree = "<group>"; };
@@ -87,25 +46,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C966BA6F1943C11E0013575B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C966BA7A1943C11E0013575B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C966BA7E1943C11E0013575B /* QuickExpectations.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DAEB6B8A1943873100289F44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BA97551943D0840070EE71 /* QuickExpectations.framework in Frameworks */,
+				C9BA97531943D0620070EE71 /* QuickCore.framework in Frameworks */,
 				DAEB6BCA194387C300289F44 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +82,6 @@
 			children = (
 				DAEB6B8E1943873100289F44 /* Quick.framework */,
 				DAEB6B991943873100289F44 /* QuickTests.xctest */,
-				C966BA731943C11E0013575B /* QuickExpectations.framework */,
-				C966BA7D1943C11E0013575B /* QuickExpectationsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +98,8 @@
 		DAEB6B911943873100289F44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9BA97541943D0840070EE71 /* QuickExpectations.framework */,
+				C9BA97521943D0620070EE71 /* QuickCore.framework */,
 				DAEB6B921943873100289F44 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,13 +145,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C966BA701943C11E0013575B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DAEB6B8B1943873100289F44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,47 +156,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C966BA721943C11E0013575B /* QuickExpectations */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C966BA8A1943C11E0013575B /* Build configuration list for PBXNativeTarget "QuickExpectations" */;
-			buildPhases = (
-				C966BA6E1943C11E0013575B /* Sources */,
-				C966BA6F1943C11E0013575B /* Frameworks */,
-				C966BA701943C11E0013575B /* Headers */,
-				C966BA711943C11E0013575B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = QuickExpectations;
-			productName = QuickExpectations;
-			productReference = C966BA731943C11E0013575B /* QuickExpectations.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C966BA7C1943C11E0013575B /* QuickExpectationsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C966BA8B1943C11E0013575B /* Build configuration list for PBXNativeTarget "QuickExpectationsTests" */;
-			buildPhases = (
-				C966BA791943C11E0013575B /* Sources */,
-				C966BA7A1943C11E0013575B /* Frameworks */,
-				C966BA7B1943C11E0013575B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C966BA801943C11E0013575B /* PBXTargetDependency */,
-				C966BA8D1943C11F0013575B /* PBXTargetDependency */,
-				C966BA8F1943C11F0013575B /* PBXTargetDependency */,
-				C966BA911943C1200013575B /* PBXTargetDependency */,
-				C966BA931943C1270013575B /* PBXTargetDependency */,
-				C966BA951943C1270013575B /* PBXTargetDependency */,
-			);
-			name = QuickExpectationsTests;
-			productName = QuickExpectationsTests;
-			productReference = C966BA7D1943C11E0013575B /* QuickExpectationsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DAEB6B8D1943873100289F44 /* Quick */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAEB6BA41943873200289F44 /* Build configuration list for PBXNativeTarget "Quick" */;
@@ -303,13 +201,6 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Brian Ivan Gesiak";
 				TargetAttributes = {
-					C966BA721943C11E0013575B = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					C966BA7C1943C11E0013575B = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = C966BA721943C11E0013575B;
-					};
 					DAEB6B8D1943873100289F44 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -333,27 +224,11 @@
 			targets = (
 				DAEB6B8D1943873100289F44 /* Quick */,
 				DAEB6B981943873100289F44 /* QuickTests */,
-				C966BA721943C11E0013575B /* QuickExpectations */,
-				C966BA7C1943C11E0013575B /* QuickExpectationsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C966BA711943C11E0013575B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C966BA7B1943C11E0013575B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DAEB6B8C1943873100289F44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,20 +246,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C966BA6E1943C11E0013575B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C966BA791943C11E0013575B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DAEB6B891943873100289F44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,36 +268,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C966BA801943C11E0013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA7F1943C11E0013575B /* PBXContainerItemProxy */;
-		};
-		C966BA8D1943C11F0013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA8C1943C11F0013575B /* PBXContainerItemProxy */;
-		};
-		C966BA8F1943C11F0013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA8E1943C11F0013575B /* PBXContainerItemProxy */;
-		};
-		C966BA911943C1200013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA901943C1200013575B /* PBXContainerItemProxy */;
-		};
-		C966BA931943C1270013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA921943C1270013575B /* PBXContainerItemProxy */;
-		};
-		C966BA951943C1270013575B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C966BA721943C11E0013575B /* QuickExpectations */;
-			targetProxy = C966BA941943C1270013575B /* PBXContainerItemProxy */;
-		};
 		DAEB6B9C1943873100289F44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DAEB6B8D1943873100289F44 /* Quick */;
@@ -445,80 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C966BA861943C11E0013575B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = QuickExpectations/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C966BA871943C11E0013575B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = QuickExpectations/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C966BA881943C11E0013575B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = QuickExpectationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C966BA891943C11E0013575B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = QuickExpectationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		DAEB6BA21943873200289F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -611,6 +368,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Quick-auptdtbnrhtalxffjdgucmdprbax/Build/Products/Debug",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Quick/Info.plist;
@@ -632,6 +390,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Quick-auptdtbnrhtalxffjdgucmdprbax/Build/Products/Debug",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Quick/Info.plist;
@@ -679,22 +438,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C966BA8A1943C11E0013575B /* Build configuration list for PBXNativeTarget "QuickExpectations" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C966BA861943C11E0013575B /* Debug */,
-				C966BA871943C11E0013575B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		C966BA8B1943C11E0013575B /* Build configuration list for PBXNativeTarget "QuickExpectationsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C966BA881943C11E0013575B /* Debug */,
-				C966BA891943C11E0013575B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		DAEB6B881943873100289F44 /* Build configuration list for PBXProject "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
