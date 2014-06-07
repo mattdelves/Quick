@@ -7,25 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C966BA781943C11E0013575B /* QuickExpectations.h in Headers */ = {isa = PBXBuildFile; fileRef = C966BA771943C11E0013575B /* QuickExpectations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C966BA7E1943C11E0013575B /* QuickExpectations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966BA731943C11E0013575B /* QuickExpectations.framework */; };
-		C966BA851943C11E0013575B /* QuickExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BA841943C11E0013575B /* QuickExpectationsTests.swift */; };
 		DAEB6B941943873100289F44 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB6B931943873100289F44 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAEB6B9A1943873100289F44 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB6B8E1943873100289F44 /* Quick.framework */; };
-		DAEB6BBB1943879800289F44 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BAB1943879800289F44 /* DSL.swift */; };
-		DAEB6BBC1943879800289F44 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BAC1943879800289F44 /* Example.swift */; };
-		DAEB6BBD1943879800289F44 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BAD1943879800289F44 /* ExampleGroup.swift */; };
-		DAEB6BBE1943879800289F44 /* Quick-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB6BAE1943879800289F44 /* Quick-Bridging-Header.h */; };
-		DAEB6BBF1943879800289F44 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB6BAF1943879800289F44 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAEB6BC01943879800289F44 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB01943879800289F44 /* QuickSpec.m */; };
-		DAEB6BC11943879800289F44 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB11943879800289F44 /* World.swift */; };
-		DAEB6BC21943879800289F44 /* Actual.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB31943879800289F44 /* Actual.swift */; };
-		DAEB6BC31943879800289F44 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB41943879800289F44 /* DSL.swift */; };
-		DAEB6BC41943879800289F44 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB51943879800289F44 /* Expectation.swift */; };
-		DAEB6BC51943879800289F44 /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB61943879800289F44 /* Matcher.swift */; };
-		DAEB6BC61943879800289F44 /* BeTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB81943879800289F44 /* BeTrue.swift */; };
-		DAEB6BC71943879800289F44 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BB91943879800289F44 /* Contain.swift */; };
-		DAEB6BC81943879800289F44 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BBA1943879800289F44 /* Equal.swift */; };
 		DAEB6BCA194387C300289F44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB6BC9194387C300289F44 /* XCTest.framework */; };
 		DAEB6BD2194387D700289F44 /* FunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BCB194387D700289F44 /* FunctionalTests.swift */; };
 		DAEB6BD3194387D700289F44 /* ExampleGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB6BCC194387D700289F44 /* ExampleGroupTests.swift */; };
@@ -49,6 +33,34 @@
 			remoteGlobalIDString = C966BA721943C11E0013575B;
 			remoteInfo = QuickExpectations;
 		};
+		C966BA8E1943C11F0013575B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEB6B851943873100289F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C966BA721943C11E0013575B;
+			remoteInfo = QuickExpectations;
+		};
+		C966BA901943C1200013575B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEB6B851943873100289F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C966BA721943C11E0013575B;
+			remoteInfo = QuickExpectations;
+		};
+		C966BA921943C1270013575B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEB6B851943873100289F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C966BA721943C11E0013575B;
+			remoteInfo = QuickExpectations;
+		};
+		C966BA941943C1270013575B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEB6B851943873100289F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C966BA721943C11E0013575B;
+			remoteInfo = QuickExpectations;
+		};
 		DAEB6B9B1943873100289F44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DAEB6B851943873100289F44 /* Project object */;
@@ -60,30 +72,12 @@
 
 /* Begin PBXFileReference section */
 		C966BA731943C11E0013575B /* QuickExpectations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickExpectations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C966BA761943C11E0013575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C966BA771943C11E0013575B /* QuickExpectations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickExpectations.h; sourceTree = "<group>"; };
 		C966BA7D1943C11E0013575B /* QuickExpectationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickExpectationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C966BA831943C11E0013575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C966BA841943C11E0013575B /* QuickExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickExpectationsTests.swift; sourceTree = "<group>"; };
 		DAEB6B8E1943873100289F44 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB6B921943873100289F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEB6B931943873100289F44 /* Quick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quick.h; sourceTree = "<group>"; };
 		DAEB6B991943873100289F44 /* QuickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB6B9F1943873100289F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAEB6BAB1943879800289F44 /* DSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
-		DAEB6BAC1943879800289F44 /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
-		DAEB6BAD1943879800289F44 /* ExampleGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleGroup.swift; sourceTree = "<group>"; };
-		DAEB6BAE1943879800289F44 /* Quick-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Quick-Bridging-Header.h"; sourceTree = "<group>"; };
-		DAEB6BAF1943879800289F44 /* QuickSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSpec.h; sourceTree = "<group>"; };
-		DAEB6BB01943879800289F44 /* QuickSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSpec.m; sourceTree = "<group>"; };
-		DAEB6BB11943879800289F44 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
-		DAEB6BB31943879800289F44 /* Actual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actual.swift; sourceTree = "<group>"; };
-		DAEB6BB41943879800289F44 /* DSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
-		DAEB6BB51943879800289F44 /* Expectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
-		DAEB6BB61943879800289F44 /* Matcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matcher.swift; sourceTree = "<group>"; };
-		DAEB6BB81943879800289F44 /* BeTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeTrue.swift; sourceTree = "<group>"; };
-		DAEB6BB91943879800289F44 /* Contain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
-		DAEB6BBA1943879800289F44 /* Equal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equal.swift; sourceTree = "<group>"; };
 		DAEB6BC9194387C300289F44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DAEB6BCB194387D700289F44 /* FunctionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalTests.swift; sourceTree = "<group>"; };
 		DAEB6BCC194387D700289F44 /* ExampleGroupTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleGroupTests.swift; sourceTree = "<group>"; };
@@ -127,47 +121,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C966BA741943C11E0013575B /* QuickExpectations */ = {
-			isa = PBXGroup;
-			children = (
-				C966BA771943C11E0013575B /* QuickExpectations.h */,
-				C966BA751943C11E0013575B /* Supporting Files */,
-			);
-			path = QuickExpectations;
-			sourceTree = "<group>";
-		};
-		C966BA751943C11E0013575B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C966BA761943C11E0013575B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C966BA811943C11E0013575B /* QuickExpectationsTests */ = {
-			isa = PBXGroup;
-			children = (
-				C966BA841943C11E0013575B /* QuickExpectationsTests.swift */,
-				C966BA821943C11E0013575B /* Supporting Files */,
-			);
-			path = QuickExpectationsTests;
-			sourceTree = "<group>";
-		};
-		C966BA821943C11E0013575B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C966BA831943C11E0013575B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		DAEB6B841943873100289F44 = {
 			isa = PBXGroup;
 			children = (
 				DAEB6B901943873100289F44 /* Quick */,
 				DAEB6B9D1943873100289F44 /* QuickTests */,
-				C966BA741943C11E0013575B /* QuickExpectations */,
-				C966BA811943C11E0013575B /* QuickExpectationsTests */,
 				DAEB6B8F1943873100289F44 /* Products */,
 				DAEB6BC9194387C300289F44 /* XCTest.framework */,
 			);
@@ -188,8 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				DAEB6B931943873100289F44 /* Quick.h */,
-				DAEB6BAA1943879800289F44 /* Core */,
-				DAEB6BB21943879800289F44 /* Expectations */,
 				DAEB6B911943873100289F44 /* Supporting Files */,
 			);
 			path = Quick;
@@ -223,42 +179,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DAEB6BAA1943879800289F44 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				DAEB6BAB1943879800289F44 /* DSL.swift */,
-				DAEB6BAC1943879800289F44 /* Example.swift */,
-				DAEB6BAD1943879800289F44 /* ExampleGroup.swift */,
-				DAEB6BAE1943879800289F44 /* Quick-Bridging-Header.h */,
-				DAEB6BAF1943879800289F44 /* QuickSpec.h */,
-				DAEB6BB01943879800289F44 /* QuickSpec.m */,
-				DAEB6BB11943879800289F44 /* World.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		DAEB6BB21943879800289F44 /* Expectations */ = {
-			isa = PBXGroup;
-			children = (
-				DAEB6BB31943879800289F44 /* Actual.swift */,
-				DAEB6BB41943879800289F44 /* DSL.swift */,
-				DAEB6BB51943879800289F44 /* Expectation.swift */,
-				DAEB6BB61943879800289F44 /* Matcher.swift */,
-				DAEB6BB71943879800289F44 /* Matchers */,
-			);
-			path = Expectations;
-			sourceTree = "<group>";
-		};
-		DAEB6BB71943879800289F44 /* Matchers */ = {
-			isa = PBXGroup;
-			children = (
-				DAEB6BB81943879800289F44 /* BeTrue.swift */,
-				DAEB6BB91943879800289F44 /* Contain.swift */,
-				DAEB6BBA1943879800289F44 /* Equal.swift */,
-			);
-			path = Matchers;
-			sourceTree = "<group>";
-		};
 		DAEB6BCD194387D700289F44 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,7 +203,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C966BA781943C11E0013575B /* QuickExpectations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEB6B941943873100289F44 /* Quick.h in Headers */,
-				DAEB6BBF1943879800289F44 /* QuickSpec.h in Headers */,
-				DAEB6BBE1943879800289F44 /* Quick-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +248,10 @@
 			dependencies = (
 				C966BA801943C11E0013575B /* PBXTargetDependency */,
 				C966BA8D1943C11F0013575B /* PBXTargetDependency */,
+				C966BA8F1943C11F0013575B /* PBXTargetDependency */,
+				C966BA911943C1200013575B /* PBXTargetDependency */,
+				C966BA931943C1270013575B /* PBXTargetDependency */,
+				C966BA951943C1270013575B /* PBXTargetDependency */,
 			);
 			name = QuickExpectationsTests;
 			productName = QuickExpectationsTests;
@@ -461,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C966BA851943C11E0013575B /* QuickExpectationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,18 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEB6BC41943879800289F44 /* Expectation.swift in Sources */,
-				DAEB6BBC1943879800289F44 /* Example.swift in Sources */,
-				DAEB6BC61943879800289F44 /* BeTrue.swift in Sources */,
-				DAEB6BC31943879800289F44 /* DSL.swift in Sources */,
-				DAEB6BC21943879800289F44 /* Actual.swift in Sources */,
-				DAEB6BBD1943879800289F44 /* ExampleGroup.swift in Sources */,
-				DAEB6BC71943879800289F44 /* Contain.swift in Sources */,
-				DAEB6BC01943879800289F44 /* QuickSpec.m in Sources */,
-				DAEB6BBB1943879800289F44 /* DSL.swift in Sources */,
-				DAEB6BC51943879800289F44 /* Matcher.swift in Sources */,
-				DAEB6BC81943879800289F44 /* Equal.swift in Sources */,
-				DAEB6BC11943879800289F44 /* World.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +416,26 @@
 			isa = PBXTargetDependency;
 			target = C966BA721943C11E0013575B /* QuickExpectations */;
 			targetProxy = C966BA8C1943C11F0013575B /* PBXContainerItemProxy */;
+		};
+		C966BA8F1943C11F0013575B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C966BA721943C11E0013575B /* QuickExpectations */;
+			targetProxy = C966BA8E1943C11F0013575B /* PBXContainerItemProxy */;
+		};
+		C966BA911943C1200013575B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C966BA721943C11E0013575B /* QuickExpectations */;
+			targetProxy = C966BA901943C1200013575B /* PBXContainerItemProxy */;
+		};
+		C966BA931943C1270013575B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C966BA721943C11E0013575B /* QuickExpectations */;
+			targetProxy = C966BA921943C1270013575B /* PBXContainerItemProxy */;
+		};
+		C966BA951943C1270013575B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C966BA721943C11E0013575B /* QuickExpectations */;
+			targetProxy = C966BA941943C1270013575B /* PBXContainerItemProxy */;
 		};
 		DAEB6B9C1943873100289F44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
