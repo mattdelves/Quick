@@ -7,6 +7,7 @@
 //
 
 import Quick
+import QuickExpectations
 
 class PersonSpec: QuickSpec {
     override class func isConcreteSpec() -> Bool { return true }

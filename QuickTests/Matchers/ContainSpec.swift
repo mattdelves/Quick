@@ -8,6 +8,7 @@
 
 import XCTest
 import Quick
+import QuickExpectations
 
 class ContainSpec: QuickSpec {
     override class func isConcreteSpec() -> Bool { return true }
