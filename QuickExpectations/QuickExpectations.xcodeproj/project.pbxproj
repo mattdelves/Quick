@@ -17,6 +17,7 @@
 		C966BB0B1943C52F0013575B /* BeTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BB041943C52F0013575B /* BeTrue.swift */; };
 		C966BB0C1943C52F0013575B /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BB051943C52F0013575B /* Contain.swift */; };
 		C966BB0D1943C52F0013575B /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966BB061943C52F0013575B /* Equal.swift */; };
+		C9BA97571943D0FB0070EE71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA97561943D0FB0070EE71 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		C966BB041943C52F0013575B /* BeTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeTrue.swift; sourceTree = "<group>"; };
 		C966BB051943C52F0013575B /* Contain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
 		C966BB061943C52F0013575B /* Equal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equal.swift; sourceTree = "<group>"; };
+		C9BA97561943D0FB0070EE71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BA97571943D0FB0070EE71 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +70,7 @@
 		C966BA961943C1D20013575B = {
 			isa = PBXGroup;
 			children = (
+				C9BA97561943D0FB0070EE71 /* XCTest.framework */,
 				C966BAA21943C1D20013575B /* QuickExpectations */,
 				C966BAAF1943C1D20013575B /* QuickExpectationsTests */,
 				C966BAA11943C1D20013575B /* Products */,
@@ -357,6 +361,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = QuickExpectations/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -376,6 +384,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = QuickExpectations/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
