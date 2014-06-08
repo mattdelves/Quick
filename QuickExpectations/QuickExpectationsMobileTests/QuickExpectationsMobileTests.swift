@@ -1,6 +1,6 @@
 //
-//  QuickTouchTests.swift
-//  QuickTouchTests
+//  QuickExpectationsMobileTests.swift
+//  QuickExpectationsMobileTests
 //
 //  Created by Matthew Delves on 7/06/2014.
 //
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class QuickTouchTests: XCTestCase {
+class QuickExpectationsMobileTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
