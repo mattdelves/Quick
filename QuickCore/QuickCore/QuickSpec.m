@@ -7,7 +7,11 @@
 //
 
 #import "QuickSpec.h"
+#if TARGET_OS_IPHONE
+#import <QuickCoreMobile/QuickCoreMobile-Swift.h>
+#else
 #import <QuickCore/QuickCore-Swift.h>
+#endif
 
 static NSUInteger const QCKIndex = 2; // 0 is class, 1 is _cmd
 
